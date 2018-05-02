@@ -1,0 +1,28 @@
+{
+  "uri" : "local://DYl6UtGEJRA89KUzDBkDc4/",
+  "name" : "types",
+  "category" : "",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_repo_holder",
+    "expr" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  }, {
+    "name" : "repo",
+    "expr" : {
+      "concept" : "/common/core/dikjRMQUWrB_rK4hvxvxP8/",
+      "bindings" : {
+        "holder" : "_repo_holder"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "repo"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}

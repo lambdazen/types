@@ -1,0 +1,29 @@
+{
+  "uri" : "local://6SiFTzjg3pAq4KH7v_qg75/",
+  "name" : "Routing Table",
+  "category" : ".route",
+  "parent" : "local://Paai1PfI-J9pGqPcg0GEe0/",
+  "flags" : "U",
+  "lvars" : [ ],
+  "vars" : [ {
+    "name" : "_routes_routes",
+    "expr" : {
+      "json" : { },
+      "type" : "JSON"
+    }
+  }, {
+    "name" : "routes",
+    "expr" : {
+      "concept" : "/common/core/gc0QIG4qmQBJH4yKP0c8e9/",
+      "bindings" : {
+        "routes" : "_routes_routes"
+      },
+      "type" : "CONCEPT"
+    }
+  } ],
+  "isas" : [ {
+    "var" : "routes"
+  } ],
+  "encodedidxhash" : "",
+  "isLambda" : false
+}

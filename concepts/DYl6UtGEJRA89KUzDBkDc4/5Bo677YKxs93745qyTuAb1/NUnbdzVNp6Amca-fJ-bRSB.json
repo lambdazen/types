@@ -1,0 +1,28 @@
+{
+  "uri" : "local://NUnbdzVNp6Amca-fJ-bRSB/",
+  "name" : "Email Address Encoder",
+  "category" : "",
+  "parent" : "local://5Bo677YKxs93745qyTuAb1/",
+  "flags" : "U",
+  "lvars" : [ {
+    "name" : "email",
+    "type" : "local://t6plZKh35i93o453wH2NX2/"
+  }, {
+    "name" : "name",
+    "type" : "local://t6plZKh35i93o453wH2NX2/",
+    "default" : {
+      "str" : "",
+      "type" : "STRING"
+    }
+  } ],
+  "vars" : [ {
+    "name" : "result",
+    "expr" : {
+      "script" : "//return email.getInternetAddress(home.email, home.name);\nreturn email;",
+      "type" : "SCRIPT"
+    }
+  } ],
+  "isas" : [ ],
+  "encodedidxhash" : "",
+  "isLambda" : true
+}
